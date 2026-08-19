@@ -1,0 +1,19 @@
+{
+  "name": "photoboothnews-qr-server",
+  "version": "4.0.0",
+  "private": true,
+  "main": "news-qr-server.js",
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.34.3"
+  },
+  "description": "PhotoboothNews Media/QR Server for public HTTPS deployment",
+  "scripts": {
+    "start": "node news-qr-server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
